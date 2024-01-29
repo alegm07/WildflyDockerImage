@@ -14,7 +14,7 @@
 
 
 
-# Develpment commands
+# Development commands
 * Create image
 ```bash 
 docker build . --tag wildfly31:1.0.0
