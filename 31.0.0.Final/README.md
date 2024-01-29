@@ -7,9 +7,10 @@
 
 * Users can configure a user for the WildFly console using the following environment variables:
 
-* * WILDFLY_USER: The username for accessing the WildFly console.
-* * WILDFLY_PASSWORD: The password for accessing the WildFly console.
-* * The CMD command starts WildFly by running standalone.sh in the /opt/wildfly/bin/ directory.
+  * WILDFLY_USER: The username for accessing the WildFly console.
+  * WILDFLY_PASSWORD: The password for accessing the WildFly console.
+
+* The CMD command starts WildFly by running standalone.sh in the /opt/wildfly/bin/ directory.
 
 
 
