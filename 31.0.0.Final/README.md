@@ -17,12 +17,12 @@
 # Develpment commands
 * Create image
 ```bash 
-docker build . --tag wildfly31:1.0.0
+docker build . --tag alegm07/wildfly31:1.0.0
 ```
 
 ## Test container
 
 * Create Container
 ```bash 
-docker run --name wildfly31 -d -p 8080:8080 -p 9990:9990 -e WILDFLY_USER=admin -e WILDFLY_PASSWORD=password wildfly31:1.0.0
+docker run --name wildfly31 -d -p 8080:8080 -p 9990:9990 -e WILDFLY_USER=admin -e WILDFLY_PASSWORD=password alegm07/wildfly31:1.0.0
 ```
